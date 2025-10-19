@@ -1,41 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tarea</title>
-    <style>
-      .Destacado {
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tarea</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 20px;
+    }
 
-        color:rgb(61, 165, 42);
-        font-weight: lighter;
-      }  
-        .resultado {
-            background-color: rgb(red, (34, 164,173);
-            padding: 5pt;
-        }
-        </style>
-        </head>
-        <body>
-          <ul>
-            <li>
-              <a href="Ejercicio 1.html"> Ejcicio 1</a>
-            </li>
-              <li>
-              <a href="Exam.html"> Exam.html</a>
-            </li>
-              <li>
-              <a href="index.html"> index.html</a>
-            </li>
-              <li>
-              <a href="operacion.html"> operacion.html</a>
-            </li>
-            <a href="pruebajs.html"> pruebajs.html </a>
-          <li>
-            <a href="script.html"> script.html </a>
-            <li>
-              <a href="stylus.html"> stylus.html</a>
-          </ul>
-          </body>
-    
+    h1 {
+      text-align: center;
+      color: #2d6a4f;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    li {
+      margin: 10px 0;
+    }
+
+    a {
+      display: block;
+      padding: 10px;
+      background-color: rgb(34, 164, 173);
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    a:hover {
+      background-color: rgb(24, 130, 140);
+    }
+
+    .Destacado {
+      color: rgb(61, 165, 42);
+      font-weight: bold;
+    }
+
+    .resultado {
+      background-color: rgb(220, 240, 240);
+      padding: 5pt;
+      border-left: 4px solid #22aabb;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="Destacado">Lista de Archivos</h1>
+  <ul>
+    <li><a href="Ejercicio 1.html">Ejercicio 1</a></li>
+    <li><a href="Exam.html">Exam.html</a></li>
+    <li><a href="index.html">index.html</a></li>
+    <li><a href="operacion.html">operacion.html</a></li>
+    <li><a href="pruebajs.html">pruebajs.html</a></li>
+    <li><a href="script.html">script.html</a></li>
+    <li><a href="stylus.html">stylus.html</a></li>
+  </ul>
+
+  <div class="resultado">
+    Aquí puedes ver una lista de archivos HTML para acceder rápidamente a tus tareas.
+  </div>
+</body>
 </html>
